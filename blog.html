@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary Meta Tags -->
+    <title>isDesign</title>
+    <meta
+      name="isDesign"
+      content="Canadian-based design studio."
+    />
+    <meta
+      name="description"
+      content="Canadian-based design studio."
+    />
+
+    <!-- Link -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./imgs/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./imgs/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./imgs/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./imgs/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="./imgs/android-chrome-512x512.png"
+    />
+    <link rel="icon" type="image/x-icon" href="./imgs/favicon.ico" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </head>
+  <body>
+    <header id="hero">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="container">
+          <!-- Logo -->
+          <h1 id="logo">
+            <a href="https://shadielfares.github.io/isDesign"
+              ><img src="./imgs/BSquare.jpg" alt="Your Logo" alt="Your Logo" style="width: 75px; height: 75px;"
+            /></a>
+          </h1>
+          <!-- Navbar links -->
+          <ul class="nav-menu">
+              <a
+                href="./projects.html"
+                >Projects 
+              </a>
+            </li>
+
+            <!-- Toggle switch -->
+            <!-- <div class="theme-switch">
+              <input type="checkbox" id="switch" />
+              <label class="toggle-icons" for="switch">
+                <img class="moon" src="assets/moon.svg" />
+                <img class="sun" src="assets/sun.svg" />
+              </label>
+            </div> -->
+            <!-- Hamburger menu -->
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+
+      <section class="header-container">
+
+      </section>
+    </header>
+
+    
+
+    <footer id="footer">
+      <div class="container">
+        <!-- Social links -->
+        <div class="social">
+          <a href="mailto:elfaress@mcmaster.ca"
+            ><img src="./assets/email2.png" alt="E-mail"
+          /></a>
+          <a href="https://www.linkedin.com/in/shadielfares/"
+            ><img src="./assets/linkedin-icon.svg" alt="Linkedin"
+          /></a>
+          <a href="https://github.com/shadielfares"
+            ><img src="./assets/github-icon.svg" alt="GitHub"
+          /></a`>
+        </div>
+        <!-- Attribution -->
+
+        <p>
+          Copyright &copy; isDesign Inc <span id="datee"></span>, All rights reserved
+        </p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#talk2usCard").click(function () {
+          window.location = "http://www.talk2us.me";
+        });
+      });
+    </script>
+      <script>
+        $(document).ready(function () {
+          $("#project1").click(function () {
+            window.location = "./project1.html";
+          });
+        });
+      </script>
+        <script>
+          $(document).ready(function () {
+            $("#project2").click(function () {
+              window.location = "./project2.html";
+            });
+          });
+        </script>
+        <script>
+          $(document).ready(function () {
+            $("#deltahacks").click(function () {
+              window.location = "./deltahacks.html";
+            });
+          });
+        </script>
+        <script>
+          $(document).ready(function () {
+            $("#oldportfolio").click(function () {
+              window.location = "https://shadielfares.github.io/Personal-Portflio";
+            });
+          });
+        </script>
+    <script type="text/javascript">
+      // Force dark theme on load
+  document.documentElement.setAttribute("data-theme", "dark");
+
+  // Store theme preference
+  localStorage.setItem("theme", "dark");
+
+      // Define your array of strings
+      var stringsArray = [
+        "Software Engineer",
+        "Web Developer",
+        "Designer",
+        "Developer",
+        "Founder",
+        "Foodie",
+        "Son",
+        "Brother",
+        "Best Friend",
+        "Valedictorian",
+        "Vacationist",
+        "Hard-Worker",
+        "MMRT Member",
+      ];
+
+      // Initialize Typed.js
+      var typed = new Typed(".typing", {
+        strings: stringsArray,
+        typeSpeed: 50, // Adjust typing speed (characters per second)
+        backSpeed: 35, // Adjust backspacing speed (characters per second)
+        backDelay: 1250, // Delay before starting to backspace
+        startDelay: 500, // Delay before starting to type
+        loop: true,
+        showCursor: true,
+      });
+    </script>
+  </body>
+</html>
